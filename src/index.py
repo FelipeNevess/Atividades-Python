@@ -1,5 +1,7 @@
 '''
     Para rodar os testes rode o seguinte comando ==> python3 -m pytest
+
+    Site de atividades ===> https://projecteuler.net
 '''
 
 from acts.act1.multiplos import soma_multiplos
