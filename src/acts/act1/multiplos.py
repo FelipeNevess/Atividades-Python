@@ -9,6 +9,9 @@
 def soma_multiplos(n=1000):
     result = 0
 
+    if (type(n) is str):
+        raise TypeError(f"O tipo {type(n)} não é um tipo inteiro")
+
     for i in range(n):
         if ((i % 3) == 0) or ((i % 5) == 0):
             result += i
